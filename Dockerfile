@@ -1,0 +1,10 @@
+FROM node:20.15.1-slim
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+RUN npm run build
+
+CMD ["npm", "run", "preview"]
