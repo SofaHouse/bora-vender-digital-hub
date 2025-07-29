@@ -53,8 +53,8 @@ export const CtaSection = () => {
             {/* Benefits list */}
             <div className="space-y-2 sm:space-y-3 md:space-y-4 mb-4 md:mb-8 max-w-full mx-auto lg:max-w-md lg:mx-0 text-left">
               {[
-                "14 dias grátis para testar tudo",
-                "Setup completo em 5 minutos",
+                "Venda rápida e sem complicações no balcão",
+                "Controle de estoque simples e eficiente",
                 "Suporte especializado incluído",
                 "Sem fidelidade ou taxas ocultas",
               ].map((benefit, index) => (

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.jpg";
+import heroDashboard from "@/assets/hero-dashboard.png";
 
 export const HeroSection = () => {
   return (
@@ -52,18 +52,6 @@ export const HeroSection = () => {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </a>
               </Button>
-            </div>
-
-            <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm text-muted-foreground">
-              <span className="flex items-center gap-2">
-                ✨ Grátis por 14 dias
-              </span>
-              <span className="flex items-center gap-2">
-                🚀 Setup em 5 minutos
-              </span>
-              <span className="flex items-center gap-2">
-                💳 Sem cartão de crédito
-              </span>
             </div>
           </div>
 
